@@ -12,3 +12,12 @@ mtcars %>% mutate(sqtMPG = sqrt(mpg)) %>% head(5)
 mtcars %>% mutate(sqrtqsec = sqrt(mpg)) %>% head(5)
 
 mtcars %>% mutate(sqrtMPG = sqrt(mpg), logMPG = log(mpg)) %>% select(mpg,sqrtMPG,logMPG,everything()) %>% head(5)
+
+
+
+
+install.packages("readr") install.packages("modelr") install.packages("randomForest") install.packages("ggplot2") 
+ library(readr) library(modelr) library(randomForest) library(ggplot2) 
+library(modelr)library(randomForest)library(ggplot2)library(readr)
+data(diamonds)
+diamonds %>% dim()diamonds %>% names()
